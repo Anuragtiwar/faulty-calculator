@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercise 7 - Password Generator</title>
+</head>
+
+<body>
+    <div id="container">
+
+        <div id="heading">
+            <h1>Faculty calculator</h1>
+        </div>
+
+        <div class="output"> <p id="result"></p></div>
+
+        <div id="options">
+
+            <div class="settings">
+                <div class="setting">
+                    <label for="firstNumber">Enter First Number</label>
+                    <input type="number" name="firstNumber" id="firstNumber" class="output">
+                </div>
+             
+               
+                <div class="setting">
+                    <label for="operatorBox">Enter Operation</label>
+                    <input type="text" name="operatorBox" id="operatorBox" class="output" placeholder="Only (+, -, *, /)">
+                </div>
+
+                <div class="setting">
+                    <label for="secondNumber">Enter Second Number</label>
+                    <input type="number" name="secondNumber" id="secondNumber" class="output">
+            </div>
+            </div>
+
+
+        </div>
+
+        <div class="generateBtn">
+            <button class="button" role="button" onclick="calculate()">Get New Password</button>
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
